@@ -4,11 +4,9 @@ import time
 
 final_list = []    
 
-def factorial(n):   
-
-   time.sleep(.1)   
-
-    factorial = 1   
+def factorial(n):
+   time.sleep(.1)
+   factorial = 1   
 
     for i in range (1,n+1):   
 
