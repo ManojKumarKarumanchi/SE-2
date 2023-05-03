@@ -21,7 +21,7 @@ def sum_factorial():
        final_list.append(factorial(i))
        result=sum(final_list)
        print("Final SUM is {}".format(result))
-   return result
+    return result
 
 if __name__ == "__main__":
     sum_factorial()
