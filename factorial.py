@@ -1,25 +1,28 @@
-# factorial.py 
+"""Program to compute the factorial # factorial.py
+"""
 
-import time   
+import time
 
-final_list = []    
+final_list = []
 
-def factorial(n):
+def factorial(var_n):
+   """docstring for factorial
+   """
    time.sleep(.1)
    factorial = 1
-   for i in range (1,n+1):   
-    factorial = factorial * i   
-    return factorial     
+   for i in range (1, var_n + 1):
+      factorial = factorial * i
+   return factorial
 
-def sum_factorial():  
-    for i in range(50):   
-        final_list.append(factorial(i))    
-    result=sum(final_list)    
-    print("Final SUM is {}".format(result)) 
-    return result
+def sum_factorial():
+   """docstring for sum_factorial
+   """
+   for i in range(50):
+      final_list.append(factorial(i))
+      result=sum(final_list)
+      print("Final SUM is {}".format(result))
+   return result
 
-if __name__ == "__main__": 
-
-    sum_factorial()  
-
-# Final SUM = 620960027832821612639424806694551108812720525606160920420940314 
+if __name__ == "__main__":
+   sum_factorial()
+   # Final SUM = 620960027832821612639424806694551108812720525606160920420940314 
