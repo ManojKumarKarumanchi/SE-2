@@ -11,16 +11,16 @@ def factorial(var_n):
     time.sleep(.1)
     fact = 1
     for i in range (1, var_n + 1):
-       fact = fact * i
+        fact = fact * i
     return fact
 
 def sum_factorial():
     """docstring for sum_factorial
     """
     for i in range(50):
-       final_list.append(factorial(i))
-       result=sum(final_list)
-       print("Final SUM is {}".format(result))
+        final_list.append(factorial(i))
+        result=sum(final_list)
+        print("Final SUM is ", result)
     return result
 
 if __name__ == "__main__":
