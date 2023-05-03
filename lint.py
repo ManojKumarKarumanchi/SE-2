@@ -1,6 +1,9 @@
 #!/usr/bin/python
+"""
+The linting code
 # -*- coding: utf-8 -*-
 # lint.py
+"""
 
 import sys
 from pylint import lint

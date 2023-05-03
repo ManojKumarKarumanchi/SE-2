@@ -12,7 +12,7 @@ def factorial(var_n):
     fact = 1
     for i in range (1, var_n + 1):
        fact = fact * i
-   return fact
+    return fact
 
 def sum_factorial():
     """docstring for sum_factorial
